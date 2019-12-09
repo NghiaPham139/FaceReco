@@ -27,7 +27,7 @@ while 1:
             cv2.waitKey(100)
     cv2.imshow('img',img)
     cv2.waitKey(1)
-    if sampleN > 10:
+    if sampleN > 20:
         break
 
 cap.release()

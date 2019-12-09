@@ -7,7 +7,7 @@ import pickle
 # For face recognition we will the the LBPH Face Recognizer
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 path = "C:\\Users\\Admin\\desktop\\data\\Data\\"
-face_cascade = cv2.CascadeClassifier('C:\\Users\\Admin\\desktop\\data\\haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('C:\\Users\\Admin\\desktop\\data\\haarcascade_frontalface_alt.xml')
 def getImagesWithID(path):
     imagepaths = list(paths.list_images(path))
     # print image_path
